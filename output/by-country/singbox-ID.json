@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-      "server": "31.57.28.147",
+      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
+      "server": "172.235.246.215",
       "server_port": 443,
-      "uuid": "2412bd96-925b-43f2-81d1-0ed4f0793699",
+      "uuid": "d90087c3-54f5-4283-a13f-615260c8b0c7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "download-cdn.jetbrains.com",
+        "server_name": "googleapis.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "d7yg69dK4DkaV1EPpQcgd4GBncMN9u1o1Nk9u-i7wGc",
-          "short_id": "7a18a196e730e1d5"
+          "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ",
+          "short_id": ""
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
